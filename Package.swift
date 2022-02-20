@@ -24,7 +24,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ZendeskMessagingSDK",
-            path: "MessagingSDK.xcframework"
+            path: "ZendeskMessagingSDK.xcframework"
         ),
         .target(name: "ZendeskMessagingSDKTargets",
                 dependencies: [
